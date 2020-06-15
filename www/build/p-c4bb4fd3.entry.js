@@ -1,0 +1,1 @@
+import{r as s,h as r}from"./p-f39c48f3.js";const e=class{constructor(r){s(this,r)}render(){return r("div",{class:"container"},r("iframe",{src:"assets/gifs/tellUs.gif",class:"iframe",allowFullScreen:!0}),r("a",null,r("slot",{name:"link"})))}};e.style=":host{display:block}.container{position:relative}.iframe{width:254px;height:480px}";export{e as blog_iframe}

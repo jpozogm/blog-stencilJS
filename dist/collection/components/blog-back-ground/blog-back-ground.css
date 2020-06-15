@@ -1,0 +1,11 @@
+:host {
+  display: block;
+  background-image: url(http://localhost:3000/pictures/libreria.jpeg); 
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 75%;
+  background-color: #fcf9f7;
+  overflow-y: scroll;
+}
+
+

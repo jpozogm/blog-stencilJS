@@ -1,0 +1,76 @@
+:host {
+  display: block;
+  justify-self: stretch;
+}
+
+.card {
+  display: block;
+  width: 300px;
+  height: 380px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 35px;
+  color: #bdbdbd;
+  border-radius: 4px;
+
+  /* background-color: rgb(253, 253, 253); */
+   background-image: linear-gradient(to top, rgb(253, 253, 253) 95%, rgb(35, 47, 62)5%); 
+  transition: transform 0.5s;
+
+  opacity: 1;
+  animation: fade 0.35s ease-in;   
+}
+
+
+@keyframes fade {
+  
+  0%,
+  25% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+.card__title{
+  height: 220px;
+  overflow: hidden;
+  color: #40403a;
+  text-align: right;
+  font-size: 30px;
+  overflow-wrap: break-word;
+}
+
+.card__content{
+  height: 110px;
+  font-style: italic;
+}
+
+.card__footer{
+  margin-top: 10px;
+  color: black;
+  font-style: italic;
+  text-align: right;
+  font-size: 14px;
+}
+
+.card:hover {
+  transform: scale(1.025);
+  transition: transform 0.25s;
+  background-image: linear-gradient(to top, rgb(253, 253, 253) 95%, rgb(58, 10, 10)5%); 
+
+}
+
+.card:hover div:nth-child(2) > p {
+color: #007ad9;
+}
+
+
+.more-blue::after {
+      content: "...";
+      color: var(--blue-color-light);
+}

@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.main{
+  margin: 0 5%;
+  min-height: 3300px;
+  max-height: 1500px;
+  
+}
+
+
+nav{
+  height: 75px;
+}
+
+footer{
+  height: 20px;
+}

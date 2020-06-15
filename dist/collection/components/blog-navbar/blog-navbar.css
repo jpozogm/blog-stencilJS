@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.navbar{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.navbar__items{
+  display: flex;
+}

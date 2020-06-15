@@ -1,0 +1,90 @@
+:host {
+  display: block;
+}
+
+.card {
+  position: relative;
+  display: block;
+  width: 205px;
+  height: 67px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 2px 10px;
+  color: #bdbdbd;
+  border-radius: 4px;
+  /* background-color: rgb(253, 253, 253); */
+   background-image: linear-gradient(to top, rgb(253, 253, 253) 95%, rgb(35, 47, 62)5%); 
+  transition: transform 0.5s;
+
+  transform: perspective( 400px ) rotateY( 14deg );
+
+  opacity: 1;
+  animation: fade 0.35s ease-in;  
+}
+
+.card {
+  margin: -10px;
+
+}
+
+
+@keyframes fade {
+  
+  0%,
+  25% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.card:hover {
+  position: relative;
+  transform: scale(1.025);
+  transform: perspective( 400px ) rotateY( -20deg );
+  transition: transform 0.25s;
+  background-image: linear-gradient(to top, rgb(253, 253, 253) 95%, rgb(58, 10, 10)5%); 
+  border: 1px solid rgb(58, 10, 10);
+  border-right: 2px solid rgb(58, 10, 10);
+  color: rgb(58, 10, 10);
+  z-index: 15;
+}
+
+.card:nth-child(n){
+  position: relative;
+  font-style: italic;
+}
+
+
+.card__content{
+  margin: -16px 0;
+  font-style: italic;
+  color: black;
+}
+
+.author{
+  margin-top: 6px;
+  text-align: end;
+}
+
+.card__author{
+  text-align: end;
+}
+
+.content::after{
+  content:" ”";
+  line-height: 10px;
+  font-size: 16px;
+  color: #007ad9;
+} 
+
+.content::before{
+  content:"“ ";
+  line-height: 10px;
+  font-size: 16px;
+  color: #007ad9;
+}

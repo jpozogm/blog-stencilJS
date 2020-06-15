@@ -1,0 +1,30 @@
+{
+  "entries": [
+    "./components/blog-back-ground/blog-back-ground.js",
+    "./components/blog-button/blog-button.js",
+    "./components/blog-card/blog-card.js",
+    "./components/blog-comments-card/blog-comments-card.js",
+    "./components/blog-comments-container/blog-comments-container.js",
+    "./components/blog-footer/blog-footer.js",
+    "./components/blog-form/blog-form.js",
+    "./components/blog-holy/blog-holy.js",
+    "./components/blog-holy-list/blog-holy-list.js",
+    "./components/blog-iframe/blog-iframe.js",
+    "./components/blog-landing-info/blog-landing-info.js",
+    "./components/blog-layout/blog-layout.js",
+    "./components/blog-navbar/blog-navbar.js",
+    "./components/blog-navbar-btn/blog-navbar-btn.js",
+    "./components/blog-post-comment/blog-post-comment.js",
+    "./components/blog-post-detail/blog-post-detail.js",
+    "./components/blog-router-link/blog-router-link.js",
+    "./components/blog-social-icons/blog-social-icons.js",
+    "./components/my-component/my-component.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.12.2",
+    "typescriptVersion": "3.8.3"
+  },
+  "collections": [],
+  "bundles": []
+}

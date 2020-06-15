@@ -1,0 +1,39 @@
+:host {
+  display: block;
+}
+
+.btn{
+  display: flex;
+}
+
+slot{
+  background-color: blueviolet;
+  border-radius: 3px;
+}
+
+.btn__item {
+  display: inline-block;
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+ 
+  background-color: rgba(35, 47, 62, 0.4);
+  border-radius: 3px;
+  margin-left: 10px;
+  font-weight: 700;
+  letter-spacing: .15em;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3.5px 2px rgb(58, 10, 10);
+  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+  border-bottom: 2px solid transparent;
+}
+
+.btn__item + .btn__item {
+  margin-left: 10px;  
+}
+
+.btn__item:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  border-bottom: 2px solid white;
+}

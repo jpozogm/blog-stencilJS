@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+
+  <blog-holy>
+    <div slot="header">Contenido header</div> 
+    <div slot="nav">Contenido nav</div>
+    <div slot="section">Contenido section</div>
+  </blog-holy>
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/blog-stencil.esm.js"></script>
+  <script nomodule src="/build/blog-stencil.js"></script>
+
+</head>
+<body>
+
+<blog-footer></blog-footer>
+  
+  <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+
+  <blog-navbar-no-loggued>
+
+    <div slot="navbar__logo">Contenido nav</div>
+    <div slot="navbar__items">Contenido section</div> 
+
+  </blog-navbar-no-loggued>
+
+
+<blog-navbar-btn>
+  <div><slot name="btn__item">BTN</slot></div>
+  <div><slot name="btn__item">BTN</slot></div>
+  <div><slot name="btn__item">BTN</slot></div>
+</blog-navbar-btn>
+  
+
+  <blog-back-ground first="https://images.pexels.com/photos/3825175/pexels-photo-3825175.jpeg?cs=srgb&dl=moda-hombre-gente-mujer-3825175.jpg&fm=jpg">
+
+  <blog-holy>
+    <div slot="nav">Contenido nav</div>
+    <div slot="section">Contenido section</div> 
+    <div slot="footer">Contenido footer</div>
+  </blog-holy>
+
+  <blog-card first="The best memories are made outdoors" last="Sagan 30/11/2000"
+  middle="of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially ..."></blog-card>
+
+  <blog-holy-list>
+    <div slot="section">Contenido section</div> 
+    <div slot="section2">Contenido section2</div> 
+  </blog-holy-list>
+
+
+  <blog-layout>
+     <div slot="navbar">Contenido nav</div>
+    <div slot="section">Contenido section</div> 
+    <div slot="footer">Contenido footer</div>
+  </blog-layout>
+
+ 
+</blog-back-ground>
+
+</body>
+</html>

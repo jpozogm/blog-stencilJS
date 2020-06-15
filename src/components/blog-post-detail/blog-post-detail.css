@@ -1,0 +1,57 @@
+:host {
+  display: block;
+  justify-self: stretch;
+}
+
+.card {
+  display: block;
+  width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 35px;
+  color: #bdbdbd;
+  border-radius: 4px;
+  /* background-color: rgb(253, 253, 253); */
+   background-image: linear-gradient(to top, rgb(253, 253, 253) 95%, rgb(35, 47, 62)5%); 
+  transition: transform 0.3s;
+
+  opacity: 1;
+  animation: fade 0.35s ease-in;   
+}
+
+
+@keyframes fade {
+  
+  0%,
+  25% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.card__title{
+  overflow: hidden;
+  color: #40403a;
+  text-align: right;
+  font-size: 30px;
+  overflow-wrap: break-word;
+}
+
+
+.card__content{
+  height: 110px;
+  font-style: italic;
+  color: #007ad9;
+}
+
+.card__footer{
+  margin-top: 45px;
+  color: black;
+  font-style: italic;
+  text-align: right;
+  font-size: 14px;
+}

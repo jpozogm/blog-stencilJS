@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+
+.title{
+  width: 70%;
+  margin: 15px;
+  border-bottom: 1px solid #232f3e;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.container__comment{
+  height: 165px;
+  margin-bottom: -40px;
+}
+
+.slot{
+  display: flex;
+}
+
+.comments{
+  height: 100px;
+  width: 950px;
+  overflow-y: scroll;
+  padding-left: 20px;
+}

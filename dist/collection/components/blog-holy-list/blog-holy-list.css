@@ -1,0 +1,76 @@
+:host {
+  display: block;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 370px));
+  justify-items: stretch;
+  justify-content: space-evenly; 
+  padding: 10px 20px 10px 90px;
+  gap: 20px;
+}
+
+main{
+  color: gainsboro;
+  height: 1500px;
+  margin: 0 auto;
+  min-height: 100vh; 
+
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 370px));
+  justify-items: stretch;
+  justify-content: space-evenly; 
+  padding: 10px 20px 10px 90px;
+  gap: 20px;
+}
+
+section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 370px));
+  justify-items: stretch;
+  justify-content: space-evenly; 
+  padding: 10px 20px 10px 90px;
+  gap: 20px;
+
+  grid-area: my-section; background-color: indigo;
+
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+/* 
+main{
+  color: gainsboro;
+  height: 1500px;
+  margin: 0 auto;
+  min-height: 100vh; 
+
+
+  display: grid; 
+  gap: 10px;
+  padding: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 384px)); 
+  grid-template-rows: 50px 3fr 100px;
+  grid-template-areas:
+    "my-section my-section my-section" 
+    "my-section2 my-section2 my-section2" 
+}
+
+section {
+  grid-area: my-section; background-color: indigo;
+
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+} 
+
+section2 {
+  grid-area: my-section2; background-color: darkorchid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+ */
